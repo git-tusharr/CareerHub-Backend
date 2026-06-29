@@ -1,5 +1,8 @@
 package com.careerhub.repository;
 
-public class ResumeRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.careerhub.entity.Resume;
+
+public interface ResumeRepository extends JpaRepository<Resume, Long> {
 
 }

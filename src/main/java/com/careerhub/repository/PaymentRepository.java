@@ -1,5 +1,8 @@
 package com.careerhub.repository;
 
-public class PaymentRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.careerhub.entity.Payment;
+
+public interface PaymentRepository extends JpaRepository<Payment, Long> {
 
 }

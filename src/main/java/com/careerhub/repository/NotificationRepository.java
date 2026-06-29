@@ -1,5 +1,8 @@
 package com.careerhub.repository;
 
-public class NotificationRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.careerhub.entity.Notification;
+
+public interface NotificationRepository extends JpaRepository<Notification, Long> {
 
 }
