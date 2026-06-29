@@ -7,9 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class AuthResponseDto {
+public class ApplicationResponseDto {
 
-    private String token;
-    private String role;
-    private String message;
+    private Long id;
+    private String candidateName;
+    private String jobTitle;
+    private String status;
 }

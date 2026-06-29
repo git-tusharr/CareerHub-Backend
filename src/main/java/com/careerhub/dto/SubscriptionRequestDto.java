@@ -7,11 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserResponseDto {
+public class SubscriptionResponseDto {
 
     private Long id;
-    private String name;
-    private String email;
-    private String role;
-    private String tenantName;
+    private String planName;
+    private Double price;
+    private Integer duration;
+    private String status;
 }
